@@ -1,0 +1,86 @@
+2019-12-30 12:38:02  INFO [main] (MainPage.java:27) - ---------------------------------------------------------------------------------------------------------
+2019-12-30 12:38:02  INFO [main] (MainPage.java:28) - Checking that currency of all products is displayed correct on main page
+2019-12-30 12:38:02  INFO [main] (MainPage.java:31) - Clicking on currency dropdown bottom 
+2019-12-30 12:38:02  INFO [main] (MainPage.java:34) - Clicking on bottom UAH
+2019-12-30 12:38:03  INFO [main] (MainPage.java:38) - Price 16,51 ₴ in UAH - PASS
+2019-12-30 12:38:03  INFO [main] (MainPage.java:38) - Price 26,99 ₴ in UAH - PASS
+2019-12-30 12:38:03  INFO [main] (MainPage.java:38) - Price 25,99 ₴ in UAH - PASS
+2019-12-30 12:38:03  INFO [main] (MainPage.java:38) - Price 50,99 ₴ in UAH - PASS
+2019-12-30 12:38:03  INFO [main] (MainPage.java:38) - Price 30,50 ₴ in UAH - PASS
+2019-12-30 12:38:03  INFO [main] (MainPage.java:38) - Price 28,98 ₴ in UAH - PASS
+2019-12-30 12:38:03  INFO [main] (MainPage.java:38) - Price 30,50 ₴ in UAH - PASS
+2019-12-30 12:38:04  INFO [main] (MainPage.java:38) - Price 20,50 ₴ in UAH - PASS
+2019-12-30 12:38:04  INFO [main] (MainPage.java:38) - Price 16,40 ₴ in UAH - PASS
+2019-12-30 12:38:04  INFO [main] (MainPage.java:44) - All products are displayed in UAH
+2019-12-30 12:38:04  INFO [main] (MainPage.java:27) - ---------------------------------------------------------------------------------------------------------
+2019-12-30 12:38:04  INFO [main] (MainPage.java:28) - Checking that currency of all products is displayed correct on main page
+2019-12-30 12:38:04  INFO [main] (MainPage.java:48) - Clicking on currency dropdown bottom 
+2019-12-30 12:38:04  INFO [main] (MainPage.java:51) - Clicking on bottom EUR
+2019-12-30 12:38:05  INFO [main] (MainPage.java:55) - Price 0,58 € in EUR - PASS
+2019-12-30 12:38:05  INFO [main] (MainPage.java:55) - Price 0,95 € in EUR - PASS
+2019-12-30 12:38:05  INFO [main] (MainPage.java:55) - Price 0,91 € in EUR - PASS
+2019-12-30 12:38:05  INFO [main] (MainPage.java:55) - Price 1,79 € in EUR - PASS
+2019-12-30 12:38:05  INFO [main] (MainPage.java:55) - Price 1,07 € in EUR - PASS
+2019-12-30 12:38:05  INFO [main] (MainPage.java:55) - Price 1,02 € in EUR - PASS
+2019-12-30 12:38:05  INFO [main] (MainPage.java:55) - Price 1,07 € in EUR - PASS
+2019-12-30 12:38:05  INFO [main] (MainPage.java:55) - Price 0,72 € in EUR - PASS
+2019-12-30 12:38:05  INFO [main] (MainPage.java:55) - Price 0,58 € in EUR - PASS
+2019-12-30 12:38:05  INFO [main] (MainPage.java:61) - All products are displayed in EUR
+2019-12-30 12:38:05  INFO [main] (MainPage.java:27) - ---------------------------------------------------------------------------------------------------------
+2019-12-30 12:38:05  INFO [main] (MainPage.java:28) - Checking that currency of all products is displayed correct on main page
+2019-12-30 12:38:05  INFO [main] (MainPage.java:65) - Clicking on currency dropdown bottom 
+2019-12-30 12:38:06  INFO [main] (MainPage.java:68) - Clicking on bottom USD
+2019-12-30 12:38:06  INFO [main] (MainPage.java:72) - Price 0,61 $ in USD - PASS
+2019-12-30 12:38:07  INFO [main] (MainPage.java:72) - Price 1,00 $ in USD - PASS
+2019-12-30 12:38:07  INFO [main] (MainPage.java:72) - Price 0,97 $ in USD - PASS
+2019-12-30 12:38:07  INFO [main] (MainPage.java:72) - Price 1,90 $ in USD - PASS
+2019-12-30 12:38:07  INFO [main] (MainPage.java:72) - Price 1,14 $ in USD - PASS
+2019-12-30 12:38:07  INFO [main] (MainPage.java:72) - Price 1,08 $ in USD - PASS
+2019-12-30 12:38:07  INFO [main] (MainPage.java:72) - Price 1,14 $ in USD - PASS
+2019-12-30 12:38:07  INFO [main] (MainPage.java:72) - Price 0,76 $ in USD - PASS
+2019-12-30 12:38:07  INFO [main] (MainPage.java:72) - Price 0,61 $ in USD - PASS
+2019-12-30 12:38:07  INFO [main] (MainPage.java:78) - All products are displayed in USD
+2019-12-30 12:38:07  INFO [main] (MainPage.java:86) - ---------------------------------------------------------------------------------------------------------
+2019-12-30 12:38:07  INFO [main] (MainPage.java:87) - Try found product
+2019-12-30 12:38:07  INFO [main] (MainPage.java:89) - Enter name products : dress
+2019-12-30 12:38:07  INFO [main] (MainPage.java:91) - Click on search bottom
+2019-12-30 12:38:08  INFO [main] (MainPage.java:93) - Founded products : dress
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:30) - ---------------------------------------------------------------------------------------------------------
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:31) - Try found label <Товаров: >
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:33) - Label is present - Товаров: 7.
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:39) - How many products founded
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:41) - Amount of founded products : 7
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:47) - ---------------------------------------------------------------------------------------------------------
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:48) - Checking that all founded products are displayed in USD
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:51) - Price 0,61 $ on USD - PASS
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:51) - Price 1,00 $ on USD - PASS
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:51) - Price 0,97 $ on USD - PASS
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:51) - Price 1,14 $ on USD - PASS
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:51) - Price 0,61 $ on USD - PASS
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:51) - Price 1,08 $ on USD - PASS
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:51) - Price 1,90 $ on USD - PASS
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:57) - All founded products are displayed in USD
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:64) - ---------------------------------------------------------------------------------------------------------
+2019-12-30 12:38:08  INFO [main] (SecondPage.java:65) - Sorting products from high to low prices
+2019-12-30 12:38:13  INFO [main] (SecondPage.java:67) - Click on sort drop down list 
+2019-12-30 12:38:13  INFO [main] (SecondPage.java:69) - Click on bottom from high to low 
+2019-12-30 12:38:13  INFO [main] (SecondPage.java:75) - ---------------------------------------------------------------------------------------------------------
+2019-12-30 12:38:13  INFO [main] (SecondPage.java:76) - Checking that sort is correct
+2019-12-30 12:38:14  INFO [main] (SecondPage.java:82) - Price 1.9 >=1.14 - PASS
+2019-12-30 12:38:14  INFO [main] (SecondPage.java:82) - Price 1.14 >=1.14 - PASS
+2019-12-30 12:38:14  INFO [main] (SecondPage.java:82) - Price 1.14 >=1.0 - PASS
+2019-12-30 12:38:14  INFO [main] (SecondPage.java:82) - Price 1.0 >=0.97 - PASS
+2019-12-30 12:38:14  INFO [main] (SecondPage.java:82) - Price 0.97 >=0.76 - PASS
+2019-12-30 12:38:14  INFO [main] (SecondPage.java:82) - Price 0.76 >=0.61 - PASS
+2019-12-30 12:38:14  INFO [main] (SecondPage.java:88) - Sort is correct
+2019-12-30 12:38:14  INFO [main] (SecondPage.java:95) - ---------------------------------------------------------------------------------------------------------
+2019-12-30 12:38:14  INFO [main] (SecondPage.java:96) - Check that all products with discount contain label with % and prices before/after discount
+2019-12-30 12:38:15  INFO [main] (SecondPage.java:106) - Product  Printed Summer Dress is contain discount label -5% before price 1,14 $ and after price 1,08 $ - PASS
+2019-12-30 12:38:15  INFO [main] (SecondPage.java:106) - Product  Printed Chiffon Dress is contain discount label -20% before price 0,76 $ and after price 0,61 $ - PASS
+2019-12-30 12:38:15  INFO [main] (SecondPage.java:114) - All products with discount contains prices before and after discount
+2019-12-30 12:38:15  INFO [main] (SecondPage.java:120) - ---------------------------------------------------------------------------------------------------------
+2019-12-30 12:38:15  INFO [main] (SecondPage.java:121) - Start checking that discount and prices calculated correctly
+2019-12-30 12:38:15  INFO [main] (SecondPage.java:132) - Price of product: Printed Summer Dress calculated correct - PASS
+2019-12-30 12:38:15  INFO [main] (SecondPage.java:132) - Price of product: Printed Chiffon Dress calculated correct - PASS
+2019-12-30 12:38:15  INFO [main] (SecondPage.java:138) - All prices and discounts are calculated correctly
+2019-12-30 12:38:15  INFO [main] (SecondPage.java:139) - ---------------------------------------------------------------------------------------------------------
