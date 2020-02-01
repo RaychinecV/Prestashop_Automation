@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.List;
 
 public class SearchPage extends BasePage {
-    private WebDriver driver;
     private By amountOfFoundedProducts = By.xpath("//div[@class='products row']//span[@class='price']");
     private By labelProducts = By.xpath("//p[contains(text(),'Товаров')]");
     private By sortDropBoxBottom = By.xpath("//a[@class='select-title']");
@@ -20,10 +19,6 @@ public class SearchPage extends BasePage {
     private By beforeDiscount = By.xpath("//span[@class='discount-percentage']/preceding-sibling::span");
     private By afterDiscount = By.xpath("//span[@class='discount-percentage']/following-sibling::span");
 
-
-    public SearchPage(WebDriver driver) {
-        this.driver = driver;
-    }
 
     //step 5.1 found label
     public String getLabel() {

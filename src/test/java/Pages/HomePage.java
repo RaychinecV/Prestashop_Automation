@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 public class HomePage extends BasePage {
-    private WebDriver driver;
     private By popularPrice = By.xpath("//div[@class='product-description']//span[contains(@class,'price')]");
     private By currencyDropdownBottom = By.xpath("//div[@class='currency-selector dropdown js-dropdown']//a[@class='hidden-sm-down']");
     private By bottomUAH = By.xpath("//a[contains(text(),'UAH ₴')]");
@@ -14,10 +13,6 @@ public class HomePage extends BasePage {
     private By bottomUSD = By.xpath("//a[contains(text(),'USD $')]");
     private By searchField = By.xpath("//input[@placeholder='Поиск в каталоге']");
     private By bottomSearch = By.xpath("//div[@id='search_widget']//i[@class='material-icons search']");
-
-    public HomePage(WebDriver driver) {
-        this.driver = driver;
-    }
 
     //step 2 + step 3 - check currency and choice product in USD
     public boolean checkAllCurrency(Currency currency) {
@@ -89,6 +84,6 @@ public class HomePage extends BasePage {
         log.info("Click on search bottom");
         driver.findElement(bottomSearch).click();
         log.info("Founded products : " + product);
-        return new SearchPage(driver);
+        return new SearchPage();
     }
 }
