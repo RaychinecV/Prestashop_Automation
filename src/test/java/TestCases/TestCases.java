@@ -4,11 +4,11 @@ import Pages.*;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TestStart extends BaseTest{
+public class TestCases extends BaseTest{
 
     @Test
     public void start() {
-        HomePage main = new HomePage(driver);
+        HomePage main = new HomePage();
         Assert.assertTrue("Some product is't in UAH", main.checkAllCurrency(BasePage.Currency.UAH));
         Assert.assertTrue("Some product is't in EUR", main.checkAllCurrency(BasePage.Currency.EUR));
         Assert.assertTrue("Some product is't in USD", main.checkAllCurrency(BasePage.Currency.USD));
