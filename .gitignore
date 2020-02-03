@@ -1,4 +1,5 @@
-.allure
-*.iml
-.idea
-out
+target/
+.idea/
+.allure/
+*.log
+*.txt
