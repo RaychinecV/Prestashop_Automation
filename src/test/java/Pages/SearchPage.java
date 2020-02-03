@@ -2,7 +2,6 @@ package Pages;
 
 import org.decimal4j.util.DoubleRounder;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
@@ -18,8 +17,20 @@ public class SearchPage extends BasePage {
     private By labelDiscount = By.xpath("//div[@class='products row']//span[@class='discount-percentage']/ancestor::div['product-description']/h1");
     private By beforeDiscount = By.xpath("//span[@class='discount-percentage']/preceding-sibling::span");
     private By afterDiscount = By.xpath("//span[@class='discount-percentage']/following-sibling::span");
+    private By searchField = By.xpath("//input[@placeholder='Поиск в каталоге']");
+    private By bottomSearch = By.xpath("//div[@id='search_widget']//i[@class='material-icons search']");
 
-
+    public SearchPage findProducts(String product) {
+        log.info("---------------------------------------------------------------------------------------------------------");
+        log.info("Try found product");
+        waitElementToBeClickable(searchField);
+        log.info("Enter name products : " + product);
+        driver.findElement(searchField).sendKeys(product);
+        log.info("Click on search bottom");
+        driver.findElement(bottomSearch).click();
+        log.info("Founded products : " + product);
+        return new SearchPage();
+    }
     //step 5.1 found label
     public String getLabel() {
         log.info("---------------------------------------------------------------------------------------------------------");

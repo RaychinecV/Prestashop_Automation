@@ -1,25 +1,38 @@
 package TestCases;
 
 import Pages.*;
-import org.junit.Assert;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
-public class TestCases extends BaseTest{
+public class TestCases extends BaseTest {
 
-    @Test
+    @Test(priority = 1)
     public void start() {
         HomePage main = new HomePage();
-        Assert.assertTrue("Some product is't in UAH", main.checkAllCurrency(BasePage.Currency.UAH));
-        Assert.assertTrue("Some product is't in EUR", main.checkAllCurrency(BasePage.Currency.EUR));
-        Assert.assertTrue("Some product is't in USD", main.checkAllCurrency(BasePage.Currency.USD));
-        SearchPage secondPage = main.findProducts("dress");
-        Assert.assertEquals("Label <Товари: > is not present or contain wrong amount of products", secondPage.getLabel(), "Товаров: " + secondPage.getAmountOfFoundedProducts() + ".");
-        Assert.assertTrue("Some founded product is not in USD", secondPage.checkFoundedProductsInUSD());
+        Assert.assertTrue(main.checkAllCurrency(BasePage.Currency.UAH), "Some product is't in UAH");
+        Assert.assertTrue(main.checkAllCurrency(BasePage.Currency.EUR), "Some product is't in EUR");
+        Assert.assertTrue(main.checkAllCurrency(BasePage.Currency.USD), "Some product is't in USD");
+    }
+
+    @Test(priority = 2)
+    public void searchProduct() {
+        SearchPage secondPage = new SearchPage();
+        secondPage.findProducts("dress");
+        Assert.assertEquals(secondPage.getLabel(), "Товаров: " + secondPage.getAmountOfFoundedProducts() + ".", "Label <Товари: > is not present or contain wrong amount of products");
+        Assert.assertTrue(secondPage.checkFoundedProductsInUSD(), "Some founded product is not in USD");
+    }
+
+    @Test(priority = 3)
+    public void sorting() {
+        SearchPage secondPage = new SearchPage();
         secondPage.sortFromHighToLow();
-        Assert.assertTrue("Wrong sort", secondPage.checkSortFromHigh());
-        Assert.assertTrue("Label discount is't contain % or not displayed prices before/after discount", secondPage.displayedPricesAndDiscount());
-        Assert.assertTrue("Discount and prices are calculated wrong", secondPage.checkDiscountAndPrices());
+        Assert.assertTrue(secondPage.checkSortFromHigh(), "Wrong sort");
+        Assert.assertTrue(secondPage.displayedPricesAndDiscount(), "Label discount is't contain % or not displayed prices before/after discount");
+        Assert.assertTrue(secondPage.checkDiscountAndPrices(), "Discount and prices are calculated wrong");
     }
 }
+
+
+
 
 

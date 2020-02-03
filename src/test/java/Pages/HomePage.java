@@ -1,18 +1,16 @@
 package Pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import java.util.List;
+
 public class HomePage extends BasePage {
     private By popularPrice = By.xpath("//div[@class='product-description']//span[contains(@class,'price')]");
     private By currencyDropdownBottom = By.xpath("//div[@class='currency-selector dropdown js-dropdown']//a[@class='hidden-sm-down']");
     private By bottomUAH = By.xpath("//a[contains(text(),'UAH ₴')]");
     private By bottomEUR = By.xpath("//a[contains(text(),'EUR €')]");
     private By bottomUSD = By.xpath("//a[contains(text(),'USD $')]");
-    private By searchField = By.xpath("//input[@placeholder='Поиск в каталоге']");
-    private By bottomSearch = By.xpath("//div[@id='search_widget']//i[@class='material-icons search']");
+
 
     //step 2 + step 3 - check currency and choice product in USD
     public boolean checkAllCurrency(Currency currency) {
@@ -72,18 +70,5 @@ public class HomePage extends BasePage {
 
         }
         return true;
-    }
-
-    // step 4 - found product
-    public SearchPage findProducts(String product) {
-        log.info("---------------------------------------------------------------------------------------------------------");
-        log.info("Try found product");
-        waitElementToBeClickable(searchField);
-        log.info("Enter name products : " + product);
-        driver.findElement(searchField).sendKeys(product);
-        log.info("Click on search bottom");
-        driver.findElement(bottomSearch).click();
-        log.info("Founded products : " + product);
-        return new SearchPage();
     }
 }

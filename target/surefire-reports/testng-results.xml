@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-03T14:17:51 EET" name="Surefire suite" finished-at="2020-02-03T14:18:23 EET" duration-ms="32054">
+    <groups>
+    </groups>
+    <test started-at="2020-02-03T14:17:51 EET" name="Surefire test" finished-at="2020-02-03T14:18:23 EET" duration-ms="32054">
+      <class name="TestCases.BaseTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:TestCases.BaseTest@acdb094]" started-at="2020-02-03T14:17:51 EET" name="setUP" finished-at="2020-02-03T14:18:01 EET" duration-ms="9714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.BaseTest@acdb094]" started-at="2020-02-03T14:18:22 EET" name="quit" finished-at="2020-02-03T14:18:23 EET" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- TestCases.BaseTest -->
+      <class name="TestCases.TestCases">
+        <test-method signature="start()[pri:1, instance:TestCases.TestCases@674bd420]" started-at="2020-02-03T14:18:01 EET" name="start" finished-at="2020-02-03T14:18:19 EET" duration-ms="18066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="searchProduct()[pri:2, instance:TestCases.TestCases@674bd420]" started-at="2020-02-03T14:18:19 EET" name="searchProduct" finished-at="2020-02-03T14:18:21 EET" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method signature="sorting()[pri:3, instance:TestCases.TestCases@674bd420]" started-at="2020-02-03T14:18:21 EET" name="sorting" finished-at="2020-02-03T14:18:22 EET" duration-ms="1632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sorting -->
+      </class> <!-- TestCases.TestCases -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

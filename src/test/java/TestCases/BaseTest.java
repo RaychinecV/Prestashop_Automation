@@ -1,14 +1,14 @@
 package TestCases;
 
-import org.junit.After;
-import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 
 public class BaseTest {
     public static WebDriver driver;
 
-    @Before
+    @BeforeTest
     public void setUP() {
         System.setProperty("webdriver.chrome.driver", "D:\\Java\\Prestashop_Automation\\src\\test\\resources\\chromedriver.exe");
         driver = new ChromeDriver();
@@ -16,7 +16,7 @@ public class BaseTest {
         driver.get("http://prestashop-automation.qatestlab.com.ua/ru");
     }
 
-    @After
+    @AfterTest
     public void quit() {
         driver.quit();
     }
