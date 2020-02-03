@@ -3003,3 +3003,658 @@
 2020-02-03 15:59:08  INFO [main] (SearchPage.java:138) - Price of product: Printed Chiffon Dress calculated correct - PASS
 2020-02-03 15:59:08  INFO [main] (SearchPage.java:144) - All prices and discounts are calculated correctly
 2020-02-03 15:59:08  INFO [main] (SearchPage.java:145) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:18:42  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:18:42  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 16:18:42  INFO [main] (HomePage.java:24) - Clicking on currency dropdown bottom 
+2020-02-03 16:18:42  INFO [main] (HomePage.java:27) - Clicking on bottom UAH
+2020-02-03 16:18:44  INFO [main] (HomePage.java:31) - Price 16,51 ₴ in UAH - PASS
+2020-02-03 16:18:45  INFO [main] (HomePage.java:31) - Price 26,99 ₴ in UAH - PASS
+2020-02-03 16:18:45  INFO [main] (HomePage.java:31) - Price 25,99 ₴ in UAH - PASS
+2020-02-03 16:18:45  INFO [main] (HomePage.java:31) - Price 50,99 ₴ in UAH - PASS
+2020-02-03 16:18:45  INFO [main] (HomePage.java:31) - Price 30,50 ₴ in UAH - PASS
+2020-02-03 16:18:45  INFO [main] (HomePage.java:31) - Price 28,98 ₴ in UAH - PASS
+2020-02-03 16:18:45  INFO [main] (HomePage.java:31) - Price 30,50 ₴ in UAH - PASS
+2020-02-03 16:18:45  INFO [main] (HomePage.java:31) - Price 20,50 ₴ in UAH - PASS
+2020-02-03 16:18:45  INFO [main] (HomePage.java:31) - Price 16,40 ₴ in UAH - PASS
+2020-02-03 16:18:45  INFO [main] (HomePage.java:37) - All products are displayed in UAH
+2020-02-03 16:18:45  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:18:45  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 16:18:45  INFO [main] (HomePage.java:41) - Clicking on currency dropdown bottom 
+2020-02-03 16:18:45  INFO [main] (HomePage.java:44) - Clicking on bottom EUR
+2020-02-03 16:18:50  INFO [main] (HomePage.java:48) - Price 0,58 € in EUR - PASS
+2020-02-03 16:18:50  INFO [main] (HomePage.java:48) - Price 0,95 € in EUR - PASS
+2020-02-03 16:18:50  INFO [main] (HomePage.java:48) - Price 0,91 € in EUR - PASS
+2020-02-03 16:18:50  INFO [main] (HomePage.java:48) - Price 1,79 € in EUR - PASS
+2020-02-03 16:18:50  INFO [main] (HomePage.java:48) - Price 1,07 € in EUR - PASS
+2020-02-03 16:18:50  INFO [main] (HomePage.java:48) - Price 1,02 € in EUR - PASS
+2020-02-03 16:18:51  INFO [main] (HomePage.java:48) - Price 1,07 € in EUR - PASS
+2020-02-03 16:18:51  INFO [main] (HomePage.java:48) - Price 0,72 € in EUR - PASS
+2020-02-03 16:18:51  INFO [main] (HomePage.java:48) - Price 0,58 € in EUR - PASS
+2020-02-03 16:18:51  INFO [main] (HomePage.java:54) - All products are displayed in EUR
+2020-02-03 16:18:51  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:18:51  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 16:18:51  INFO [main] (HomePage.java:58) - Clicking on currency dropdown bottom 
+2020-02-03 16:18:51  INFO [main] (HomePage.java:61) - Clicking on bottom USD
+2020-02-03 16:18:58  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 16:18:58  INFO [main] (HomePage.java:65) - Price 1,00 $ in USD - PASS
+2020-02-03 16:18:58  INFO [main] (HomePage.java:65) - Price 0,97 $ in USD - PASS
+2020-02-03 16:18:58  INFO [main] (HomePage.java:65) - Price 1,90 $ in USD - PASS
+2020-02-03 16:18:58  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 16:18:58  INFO [main] (HomePage.java:65) - Price 1,08 $ in USD - PASS
+2020-02-03 16:18:58  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 16:18:58  INFO [main] (HomePage.java:65) - Price 0,76 $ in USD - PASS
+2020-02-03 16:18:58  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 16:18:58  INFO [main] (HomePage.java:71) - All products are displayed in USD
+2020-02-03 16:19:00  INFO [main] (HomePage.java:79) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:19:00  INFO [main] (HomePage.java:80) - Try found product
+2020-02-03 16:19:00  INFO [main] (HomePage.java:82) - Enter name products : dress
+2020-02-03 16:19:02  INFO [main] (HomePage.java:84) - Click on search bottom
+2020-02-03 16:19:06  INFO [main] (HomePage.java:86) - Founded products : dress
+2020-02-03 16:19:06  INFO [main] (SearchPage.java:23) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:19:06  INFO [main] (SearchPage.java:24) - Try found label <Товаров: >
+2020-02-03 16:19:06  INFO [main] (SearchPage.java:26) - Label is present - Товаров: 7.
+2020-02-03 16:19:06  INFO [main] (SearchPage.java:32) - How many products founded
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:34) - Amount of founded products : 7
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:40) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:41) - Checking that all founded products are displayed in USD
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:44) - Price 0,61 $ on USD - PASS
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:44) - Price 1,00 $ on USD - PASS
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:44) - Price 0,97 $ on USD - PASS
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:44) - Price 1,14 $ on USD - PASS
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:44) - Price 0,61 $ on USD - PASS
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:44) - Price 1,08 $ on USD - PASS
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:44) - Price 1,90 $ on USD - PASS
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:50) - All founded products are displayed in USD
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:57) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:58) - Sorting products from high to low prices
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:60) - Click on sort drop down list 
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:62) - Click on bottom from high to low 
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:68) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:19:07  INFO [main] (SearchPage.java:69) - Checking that sort is correct
+2020-02-03 16:19:08  INFO [main] (SearchPage.java:75) - Price 1.9 >=1.14 - PASS
+2020-02-03 16:19:08  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.14 - PASS
+2020-02-03 16:19:08  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.0 - PASS
+2020-02-03 16:19:08  INFO [main] (SearchPage.java:75) - Price 1.0 >=0.97 - PASS
+2020-02-03 16:19:08  INFO [main] (SearchPage.java:75) - Price 0.97 >=0.76 - PASS
+2020-02-03 16:19:08  INFO [main] (SearchPage.java:75) - Price 0.76 >=0.61 - PASS
+2020-02-03 16:19:08  INFO [main] (SearchPage.java:81) - Sort is correct
+2020-02-03 16:19:08  INFO [main] (SearchPage.java:88) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:19:08  INFO [main] (SearchPage.java:89) - Check that all products with discount contain label with % and prices before/after discount
+2020-02-03 16:19:09  INFO [main] (SearchPage.java:99) - Product  Printed Summer Dress is contain discount label -5% before price 1,14 $ and after price 1,08 $ - PASS
+2020-02-03 16:19:09  INFO [main] (SearchPage.java:99) - Product  Printed Chiffon Dress is contain discount label -20% before price 0,76 $ and after price 0,61 $ - PASS
+2020-02-03 16:19:09  INFO [main] (SearchPage.java:107) - All products with discount contains prices before and after discount
+2020-02-03 16:19:09  INFO [main] (SearchPage.java:113) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:19:09  INFO [main] (SearchPage.java:114) - Start checking that discount and prices calculated correctly
+2020-02-03 16:19:10  INFO [main] (SearchPage.java:125) - Price of product: Printed Summer Dress calculated correct - PASS
+2020-02-03 16:19:10  INFO [main] (SearchPage.java:125) - Price of product: Printed Chiffon Dress calculated correct - PASS
+2020-02-03 16:19:10  INFO [main] (SearchPage.java:131) - All prices and discounts are calculated correctly
+2020-02-03 16:19:10  INFO [main] (SearchPage.java:132) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:24:35  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:24:35  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 16:24:35  INFO [main] (HomePage.java:24) - Clicking on currency dropdown bottom 
+2020-02-03 16:24:36  INFO [main] (HomePage.java:27) - Clicking on bottom UAH
+2020-02-03 16:24:40  INFO [main] (HomePage.java:31) - Price 16,51 ? in UAH - PASS
+2020-02-03 16:24:40  INFO [main] (HomePage.java:31) - Price 26,99 ? in UAH - PASS
+2020-02-03 16:24:40  INFO [main] (HomePage.java:31) - Price 25,99 ? in UAH - PASS
+2020-02-03 16:24:40  INFO [main] (HomePage.java:31) - Price 50,99 ? in UAH - PASS
+2020-02-03 16:24:40  INFO [main] (HomePage.java:31) - Price 30,50 ? in UAH - PASS
+2020-02-03 16:24:40  INFO [main] (HomePage.java:31) - Price 28,98 ? in UAH - PASS
+2020-02-03 16:24:40  INFO [main] (HomePage.java:31) - Price 30,50 ? in UAH - PASS
+2020-02-03 16:24:40  INFO [main] (HomePage.java:31) - Price 20,50 ? in UAH - PASS
+2020-02-03 16:24:40  INFO [main] (HomePage.java:31) - Price 16,40 ? in UAH - PASS
+2020-02-03 16:24:40  INFO [main] (HomePage.java:37) - All products are displayed in UAH
+2020-02-03 16:24:40  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:24:40  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 16:24:40  INFO [main] (HomePage.java:41) - Clicking on currency dropdown bottom 
+2020-02-03 16:24:40  INFO [main] (HomePage.java:44) - Clicking on bottom EUR
+2020-02-03 16:24:44  INFO [main] (HomePage.java:48) - Price 0,58 � in EUR - PASS
+2020-02-03 16:24:44  INFO [main] (HomePage.java:48) - Price 0,95 � in EUR - PASS
+2020-02-03 16:24:44  INFO [main] (HomePage.java:48) - Price 0,91 � in EUR - PASS
+2020-02-03 16:24:44  INFO [main] (HomePage.java:48) - Price 1,79 � in EUR - PASS
+2020-02-03 16:24:44  INFO [main] (HomePage.java:48) - Price 1,07 � in EUR - PASS
+2020-02-03 16:24:45  INFO [main] (HomePage.java:48) - Price 1,02 � in EUR - PASS
+2020-02-03 16:24:45  INFO [main] (HomePage.java:48) - Price 1,07 � in EUR - PASS
+2020-02-03 16:24:45  INFO [main] (HomePage.java:48) - Price 0,72 � in EUR - PASS
+2020-02-03 16:24:45  INFO [main] (HomePage.java:48) - Price 0,58 � in EUR - PASS
+2020-02-03 16:24:45  INFO [main] (HomePage.java:54) - All products are displayed in EUR
+2020-02-03 16:24:45  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:24:45  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 16:24:45  INFO [main] (HomePage.java:58) - Clicking on currency dropdown bottom 
+2020-02-03 16:24:45  INFO [main] (HomePage.java:61) - Clicking on bottom USD
+2020-02-03 16:24:49  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 16:24:49  INFO [main] (HomePage.java:65) - Price 1,00 $ in USD - PASS
+2020-02-03 16:24:49  INFO [main] (HomePage.java:65) - Price 0,97 $ in USD - PASS
+2020-02-03 16:24:49  INFO [main] (HomePage.java:65) - Price 1,90 $ in USD - PASS
+2020-02-03 16:24:49  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 16:24:49  INFO [main] (HomePage.java:65) - Price 1,08 $ in USD - PASS
+2020-02-03 16:24:49  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 16:24:49  INFO [main] (HomePage.java:65) - Price 0,76 $ in USD - PASS
+2020-02-03 16:24:49  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 16:24:49  INFO [main] (HomePage.java:71) - All products are displayed in USD
+2020-02-03 16:24:50  INFO [main] (HomePage.java:79) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:24:50  INFO [main] (HomePage.java:80) - Try found product
+2020-02-03 16:24:50  INFO [main] (HomePage.java:82) - Enter name products : dress
+2020-02-03 16:24:50  INFO [main] (HomePage.java:84) - Click on search bottom
+2020-02-03 16:24:52  INFO [main] (HomePage.java:86) - Founded products : dress
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:23) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:24) - Try found label <�������: >
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:26) - Label is present - �������: 7.
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:32) - How many products founded
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:34) - Amount of founded products : 7
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:40) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:41) - Checking that all founded products are displayed in USD
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:44) - Price 0,61 $ on USD - PASS
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:44) - Price 1,00 $ on USD - PASS
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:44) - Price 0,97 $ on USD - PASS
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:44) - Price 1,14 $ on USD - PASS
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:44) - Price 0,61 $ on USD - PASS
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:44) - Price 1,08 $ on USD - PASS
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:44) - Price 1,90 $ on USD - PASS
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:50) - All founded products are displayed in USD
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:57) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:58) - Sorting products from high to low prices
+2020-02-03 16:24:52  INFO [main] (SearchPage.java:60) - Click on sort drop down list 
+2020-02-03 16:24:53  INFO [main] (SearchPage.java:62) - Click on bottom from high to low 
+2020-02-03 16:24:53  INFO [main] (SearchPage.java:68) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:24:53  INFO [main] (SearchPage.java:69) - Checking that sort is correct
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:75) - Price 1.9 >=1.14 - PASS
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.14 - PASS
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.0 - PASS
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:75) - Price 1.0 >=0.97 - PASS
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:75) - Price 0.97 >=0.76 - PASS
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:75) - Price 0.76 >=0.61 - PASS
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:81) - Sort is correct
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:88) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:89) - Check that all products with discount contain label with % and prices before/after discount
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:99) - Product  Printed Summer Dress is contain discount label -5% before price 1,14 $ and after price 1,08 $ - PASS
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:99) - Product  Printed Chiffon Dress is contain discount label -20% before price 0,76 $ and after price 0,61 $ - PASS
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:107) - All products with discount contains prices before and after discount
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:113) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:24:54  INFO [main] (SearchPage.java:114) - Start checking that discount and prices calculated correctly
+2020-02-03 16:24:55  INFO [main] (SearchPage.java:125) - Price of product: Printed Summer Dress calculated correct - PASS
+2020-02-03 16:24:55  INFO [main] (SearchPage.java:125) - Price of product: Printed Chiffon Dress calculated correct - PASS
+2020-02-03 16:24:55  INFO [main] (SearchPage.java:131) - All prices and discounts are calculated correctly
+2020-02-03 16:24:55  INFO [main] (SearchPage.java:132) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:38:00  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:38:00  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 16:38:00  INFO [main] (HomePage.java:24) - Clicking on currency dropdown bottom 
+2020-02-03 16:38:00  INFO [main] (HomePage.java:27) - Clicking on bottom UAH
+2020-02-03 16:38:03  INFO [main] (HomePage.java:31) - Price 16,51 ₴ in UAH - PASS
+2020-02-03 16:38:03  INFO [main] (HomePage.java:31) - Price 26,99 ₴ in UAH - PASS
+2020-02-03 16:38:03  INFO [main] (HomePage.java:31) - Price 25,99 ₴ in UAH - PASS
+2020-02-03 16:38:03  INFO [main] (HomePage.java:31) - Price 50,99 ₴ in UAH - PASS
+2020-02-03 16:38:03  INFO [main] (HomePage.java:31) - Price 30,50 ₴ in UAH - PASS
+2020-02-03 16:38:03  INFO [main] (HomePage.java:31) - Price 28,98 ₴ in UAH - PASS
+2020-02-03 16:38:03  INFO [main] (HomePage.java:31) - Price 30,50 ₴ in UAH - PASS
+2020-02-03 16:38:03  INFO [main] (HomePage.java:31) - Price 20,50 ₴ in UAH - PASS
+2020-02-03 16:38:03  INFO [main] (HomePage.java:31) - Price 16,40 ₴ in UAH - PASS
+2020-02-03 16:38:03  INFO [main] (HomePage.java:37) - All products are displayed in UAH
+2020-02-03 16:38:03  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:38:03  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 16:38:04  INFO [main] (HomePage.java:41) - Clicking on currency dropdown bottom 
+2020-02-03 16:38:04  INFO [main] (HomePage.java:44) - Clicking on bottom EUR
+2020-02-03 16:38:09  INFO [main] (HomePage.java:48) - Price 0,58 € in EUR - PASS
+2020-02-03 16:38:09  INFO [main] (HomePage.java:48) - Price 0,95 € in EUR - PASS
+2020-02-03 16:38:09  INFO [main] (HomePage.java:48) - Price 0,91 € in EUR - PASS
+2020-02-03 16:38:09  INFO [main] (HomePage.java:48) - Price 1,79 € in EUR - PASS
+2020-02-03 16:38:09  INFO [main] (HomePage.java:48) - Price 1,07 € in EUR - PASS
+2020-02-03 16:38:09  INFO [main] (HomePage.java:48) - Price 1,02 € in EUR - PASS
+2020-02-03 16:38:09  INFO [main] (HomePage.java:48) - Price 1,07 € in EUR - PASS
+2020-02-03 16:38:09  INFO [main] (HomePage.java:48) - Price 0,72 € in EUR - PASS
+2020-02-03 16:38:09  INFO [main] (HomePage.java:48) - Price 0,58 € in EUR - PASS
+2020-02-03 16:38:09  INFO [main] (HomePage.java:54) - All products are displayed in EUR
+2020-02-03 16:38:09  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:38:09  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 16:38:09  INFO [main] (HomePage.java:58) - Clicking on currency dropdown bottom 
+2020-02-03 16:38:10  INFO [main] (HomePage.java:61) - Clicking on bottom USD
+2020-02-03 16:38:11  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 16:38:11  INFO [main] (HomePage.java:65) - Price 1,00 $ in USD - PASS
+2020-02-03 16:38:11  INFO [main] (HomePage.java:65) - Price 0,97 $ in USD - PASS
+2020-02-03 16:38:11  INFO [main] (HomePage.java:65) - Price 1,90 $ in USD - PASS
+2020-02-03 16:38:11  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 16:38:11  INFO [main] (HomePage.java:65) - Price 1,08 $ in USD - PASS
+2020-02-03 16:38:11  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 16:38:11  INFO [main] (HomePage.java:65) - Price 0,76 $ in USD - PASS
+2020-02-03 16:38:11  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 16:38:11  INFO [main] (HomePage.java:71) - All products are displayed in USD
+2020-02-03 16:38:11  INFO [main] (HomePage.java:79) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:38:11  INFO [main] (HomePage.java:80) - Try found product
+2020-02-03 16:38:12  INFO [main] (HomePage.java:82) - Enter name products : dress
+2020-02-03 16:38:12  INFO [main] (HomePage.java:84) - Click on search bottom
+2020-02-03 16:38:14  INFO [main] (HomePage.java:86) - Founded products : dress
+2020-02-03 16:38:14  INFO [main] (SearchPage.java:23) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:38:14  INFO [main] (SearchPage.java:24) - Try found label <Товаров: >
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:26) - Label is present - Товаров: 7.
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:32) - How many products founded
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:34) - Amount of founded products : 7
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:40) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:41) - Checking that all founded products are displayed in USD
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:44) - Price 0,61 $ on USD - PASS
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:44) - Price 1,00 $ on USD - PASS
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:44) - Price 0,97 $ on USD - PASS
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:44) - Price 1,14 $ on USD - PASS
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:44) - Price 0,61 $ on USD - PASS
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:44) - Price 1,08 $ on USD - PASS
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:44) - Price 1,90 $ on USD - PASS
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:50) - All founded products are displayed in USD
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:57) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:58) - Sorting products from high to low prices
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:60) - Click on sort drop down list 
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:62) - Click on bottom from high to low 
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:68) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:38:15  INFO [main] (SearchPage.java:69) - Checking that sort is correct
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:75) - Price 1.9 >=1.14 - PASS
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.14 - PASS
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.0 - PASS
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:75) - Price 1.0 >=0.97 - PASS
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:75) - Price 0.97 >=0.76 - PASS
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:75) - Price 0.76 >=0.61 - PASS
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:81) - Sort is correct
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:88) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:89) - Check that all products with discount contain label with % and prices before/after discount
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:99) - Product  Printed Summer Dress is contain discount label -5% before price 1,14 $ and after price 1,08 $ - PASS
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:99) - Product  Printed Chiffon Dress is contain discount label -20% before price 0,76 $ and after price 0,61 $ - PASS
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:107) - All products with discount contains prices before and after discount
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:113) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 16:38:17  INFO [main] (SearchPage.java:114) - Start checking that discount and prices calculated correctly
+2020-02-03 16:38:18  INFO [main] (SearchPage.java:125) - Price of product: Printed Summer Dress calculated correct - PASS
+2020-02-03 16:38:18  INFO [main] (SearchPage.java:125) - Price of product: Printed Chiffon Dress calculated correct - PASS
+2020-02-03 16:38:18  INFO [main] (SearchPage.java:131) - All prices and discounts are calculated correctly
+2020-02-03 16:38:18  INFO [main] (SearchPage.java:132) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:02:48  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:02:48  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:02:48  INFO [main] (HomePage.java:24) - Clicking on currency dropdown bottom 
+2020-02-03 17:02:49  INFO [main] (HomePage.java:27) - Clicking on bottom UAH
+2020-02-03 17:02:51  INFO [main] (HomePage.java:31) - Price 16,51 ₴ in UAH - PASS
+2020-02-03 17:02:51  INFO [main] (HomePage.java:31) - Price 26,99 ₴ in UAH - PASS
+2020-02-03 17:02:51  INFO [main] (HomePage.java:31) - Price 25,99 ₴ in UAH - PASS
+2020-02-03 17:02:51  INFO [main] (HomePage.java:31) - Price 50,99 ₴ in UAH - PASS
+2020-02-03 17:02:51  INFO [main] (HomePage.java:31) - Price 30,50 ₴ in UAH - PASS
+2020-02-03 17:02:51  INFO [main] (HomePage.java:31) - Price 28,98 ₴ in UAH - PASS
+2020-02-03 17:02:51  INFO [main] (HomePage.java:31) - Price 30,50 ₴ in UAH - PASS
+2020-02-03 17:02:51  INFO [main] (HomePage.java:31) - Price 20,50 ₴ in UAH - PASS
+2020-02-03 17:02:51  INFO [main] (HomePage.java:31) - Price 16,40 ₴ in UAH - PASS
+2020-02-03 17:02:51  INFO [main] (HomePage.java:37) - All products are displayed in UAH
+2020-02-03 17:02:52  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:02:52  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:02:52  INFO [main] (HomePage.java:41) - Clicking on currency dropdown bottom 
+2020-02-03 17:02:52  INFO [main] (HomePage.java:44) - Clicking on bottom EUR
+2020-02-03 17:02:54  INFO [main] (HomePage.java:48) - Price 0,58 € in EUR - PASS
+2020-02-03 17:02:54  INFO [main] (HomePage.java:48) - Price 0,95 € in EUR - PASS
+2020-02-03 17:02:54  INFO [main] (HomePage.java:48) - Price 0,91 € in EUR - PASS
+2020-02-03 17:02:54  INFO [main] (HomePage.java:48) - Price 1,79 € in EUR - PASS
+2020-02-03 17:02:54  INFO [main] (HomePage.java:48) - Price 1,07 € in EUR - PASS
+2020-02-03 17:02:54  INFO [main] (HomePage.java:48) - Price 1,02 € in EUR - PASS
+2020-02-03 17:02:54  INFO [main] (HomePage.java:48) - Price 1,07 € in EUR - PASS
+2020-02-03 17:02:54  INFO [main] (HomePage.java:48) - Price 0,72 € in EUR - PASS
+2020-02-03 17:02:54  INFO [main] (HomePage.java:48) - Price 0,58 € in EUR - PASS
+2020-02-03 17:02:54  INFO [main] (HomePage.java:54) - All products are displayed in EUR
+2020-02-03 17:02:54  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:02:54  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:02:54  INFO [main] (HomePage.java:58) - Clicking on currency dropdown bottom 
+2020-02-03 17:02:55  INFO [main] (HomePage.java:61) - Clicking on bottom USD
+2020-02-03 17:02:57  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 17:02:57  INFO [main] (HomePage.java:65) - Price 1,00 $ in USD - PASS
+2020-02-03 17:02:57  INFO [main] (HomePage.java:65) - Price 0,97 $ in USD - PASS
+2020-02-03 17:02:57  INFO [main] (HomePage.java:65) - Price 1,90 $ in USD - PASS
+2020-02-03 17:02:57  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 17:02:57  INFO [main] (HomePage.java:65) - Price 1,08 $ in USD - PASS
+2020-02-03 17:02:57  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 17:02:57  INFO [main] (HomePage.java:65) - Price 0,76 $ in USD - PASS
+2020-02-03 17:02:57  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 17:02:57  INFO [main] (HomePage.java:71) - All products are displayed in USD
+2020-02-03 17:02:58  INFO [main] (HomePage.java:79) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:02:58  INFO [main] (HomePage.java:80) - Try found product
+2020-02-03 17:02:58  INFO [main] (HomePage.java:82) - Enter name products : dress
+2020-02-03 17:02:58  INFO [main] (HomePage.java:84) - Click on search bottom
+2020-02-03 17:02:59  INFO [main] (HomePage.java:86) - Founded products : dress
+2020-02-03 17:02:59  INFO [main] (SearchPage.java:23) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:02:59  INFO [main] (SearchPage.java:24) - Try found label <Товаров: >
+2020-02-03 17:03:10  INFO [main] (SearchPage.java:57) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:03:10  INFO [main] (SearchPage.java:58) - Sorting products from high to low prices
+2020-02-03 17:03:10  INFO [main] (SearchPage.java:60) - Click on sort drop down list 
+2020-02-03 17:03:10  INFO [main] (SearchPage.java:62) - Click on bottom from high to low 
+2020-02-03 17:03:10  INFO [main] (SearchPage.java:68) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:03:10  INFO [main] (SearchPage.java:69) - Checking that sort is correct
+2020-02-03 17:03:11  INFO [main] (SearchPage.java:75) - Price 1.9 >=1.14 - PASS
+2020-02-03 17:03:11  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.14 - PASS
+2020-02-03 17:03:11  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.0 - PASS
+2020-02-03 17:03:11  INFO [main] (SearchPage.java:75) - Price 1.0 >=0.97 - PASS
+2020-02-03 17:03:11  INFO [main] (SearchPage.java:75) - Price 0.97 >=0.76 - PASS
+2020-02-03 17:03:11  INFO [main] (SearchPage.java:75) - Price 0.76 >=0.61 - PASS
+2020-02-03 17:03:11  INFO [main] (SearchPage.java:81) - Sort is correct
+2020-02-03 17:03:11  INFO [main] (SearchPage.java:88) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:03:11  INFO [main] (SearchPage.java:89) - Check that all products with discount contain label with % and prices before/after discount
+2020-02-03 17:03:11  INFO [main] (SearchPage.java:99) - Product  Printed Summer Dress is contain discount label -5% before price 1,14 $ and after price 1,08 $ - PASS
+2020-02-03 17:03:12  INFO [main] (SearchPage.java:99) - Product  Printed Chiffon Dress is contain discount label -20% before price 0,76 $ and after price 0,61 $ - PASS
+2020-02-03 17:03:12  INFO [main] (SearchPage.java:107) - All products with discount contains prices before and after discount
+2020-02-03 17:03:12  INFO [main] (SearchPage.java:113) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:03:12  INFO [main] (SearchPage.java:114) - Start checking that discount and prices calculated correctly
+2020-02-03 17:03:12  INFO [main] (SearchPage.java:125) - Price of product: Printed Summer Dress calculated correct - PASS
+2020-02-03 17:03:12  INFO [main] (SearchPage.java:125) - Price of product: Printed Chiffon Dress calculated correct - PASS
+2020-02-03 17:03:12  INFO [main] (SearchPage.java:131) - All prices and discounts are calculated correctly
+2020-02-03 17:03:12  INFO [main] (SearchPage.java:132) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:04:22  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:04:22  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:04:22  INFO [main] (HomePage.java:24) - Clicking on currency dropdown bottom 
+2020-02-03 17:04:22  INFO [main] (HomePage.java:27) - Clicking on bottom UAH
+2020-02-03 17:04:23  INFO [main] (HomePage.java:31) - Price 16,51 ₴ in UAH - PASS
+2020-02-03 17:04:24  INFO [main] (HomePage.java:31) - Price 26,99 ₴ in UAH - PASS
+2020-02-03 17:04:24  INFO [main] (HomePage.java:31) - Price 25,99 ₴ in UAH - PASS
+2020-02-03 17:04:24  INFO [main] (HomePage.java:31) - Price 50,99 ₴ in UAH - PASS
+2020-02-03 17:04:24  INFO [main] (HomePage.java:31) - Price 30,50 ₴ in UAH - PASS
+2020-02-03 17:04:24  INFO [main] (HomePage.java:31) - Price 28,98 ₴ in UAH - PASS
+2020-02-03 17:04:24  INFO [main] (HomePage.java:31) - Price 30,50 ₴ in UAH - PASS
+2020-02-03 17:04:24  INFO [main] (HomePage.java:31) - Price 20,50 ₴ in UAH - PASS
+2020-02-03 17:04:24  INFO [main] (HomePage.java:31) - Price 16,40 ₴ in UAH - PASS
+2020-02-03 17:04:24  INFO [main] (HomePage.java:37) - All products are displayed in UAH
+2020-02-03 17:04:26  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:04:26  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:04:26  INFO [main] (HomePage.java:41) - Clicking on currency dropdown bottom 
+2020-02-03 17:04:26  INFO [main] (HomePage.java:44) - Clicking on bottom EUR
+2020-02-03 17:04:27  INFO [main] (HomePage.java:48) - Price 0,58 € in EUR - PASS
+2020-02-03 17:04:27  INFO [main] (HomePage.java:48) - Price 0,95 € in EUR - PASS
+2020-02-03 17:04:27  INFO [main] (HomePage.java:48) - Price 0,91 € in EUR - PASS
+2020-02-03 17:04:28  INFO [main] (HomePage.java:48) - Price 1,79 € in EUR - PASS
+2020-02-03 17:04:28  INFO [main] (HomePage.java:48) - Price 1,07 € in EUR - PASS
+2020-02-03 17:04:28  INFO [main] (HomePage.java:48) - Price 1,02 € in EUR - PASS
+2020-02-03 17:04:28  INFO [main] (HomePage.java:48) - Price 1,07 € in EUR - PASS
+2020-02-03 17:04:28  INFO [main] (HomePage.java:48) - Price 0,72 € in EUR - PASS
+2020-02-03 17:04:28  INFO [main] (HomePage.java:48) - Price 0,58 € in EUR - PASS
+2020-02-03 17:04:28  INFO [main] (HomePage.java:54) - All products are displayed in EUR
+2020-02-03 17:04:28  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:04:28  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:04:28  INFO [main] (HomePage.java:58) - Clicking on currency dropdown bottom 
+2020-02-03 17:04:28  INFO [main] (HomePage.java:61) - Clicking on bottom USD
+2020-02-03 17:04:29  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 17:04:29  INFO [main] (HomePage.java:65) - Price 1,00 $ in USD - PASS
+2020-02-03 17:04:29  INFO [main] (HomePage.java:65) - Price 0,97 $ in USD - PASS
+2020-02-03 17:04:29  INFO [main] (HomePage.java:65) - Price 1,90 $ in USD - PASS
+2020-02-03 17:04:29  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 17:04:29  INFO [main] (HomePage.java:65) - Price 1,08 $ in USD - PASS
+2020-02-03 17:04:29  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 17:04:29  INFO [main] (HomePage.java:65) - Price 0,76 $ in USD - PASS
+2020-02-03 17:04:30  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 17:04:30  INFO [main] (HomePage.java:71) - All products are displayed in USD
+2020-02-03 17:04:30  INFO [main] (HomePage.java:79) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:04:30  INFO [main] (HomePage.java:80) - Try found product
+2020-02-03 17:04:30  INFO [main] (HomePage.java:82) - Enter name products : dress
+2020-02-03 17:04:30  INFO [main] (HomePage.java:84) - Click on search bottom
+2020-02-03 17:04:32  INFO [main] (HomePage.java:86) - Founded products : dress
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:23) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:24) - Try found label <Товаров: >
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:26) - Label is present - Товаров: 7.
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:32) - How many products founded
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:34) - Amount of founded products : 7
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:40) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:41) - Checking that all founded products are displayed in USD
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:44) - Price 0,61 $ on USD - PASS
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:44) - Price 1,00 $ on USD - PASS
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:44) - Price 0,97 $ on USD - PASS
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:44) - Price 1,14 $ on USD - PASS
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:44) - Price 0,61 $ on USD - PASS
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:44) - Price 1,08 $ on USD - PASS
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:44) - Price 1,90 $ on USD - PASS
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:50) - All founded products are displayed in USD
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:57) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:58) - Sorting products from high to low prices
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:60) - Click on sort drop down list 
+2020-02-03 17:04:32  INFO [main] (SearchPage.java:62) - Click on bottom from high to low 
+2020-02-03 17:04:33  INFO [main] (SearchPage.java:68) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:04:33  INFO [main] (SearchPage.java:69) - Checking that sort is correct
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:75) - Price 1.9 >=1.14 - PASS
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.14 - PASS
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.0 - PASS
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:75) - Price 1.0 >=0.97 - PASS
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:75) - Price 0.97 >=0.76 - PASS
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:75) - Price 0.76 >=0.61 - PASS
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:81) - Sort is correct
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:88) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:89) - Check that all products with discount contain label with % and prices before/after discount
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:99) - Product  Printed Summer Dress is contain discount label -5% before price 1,14 $ and after price 1,08 $ - PASS
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:99) - Product  Printed Chiffon Dress is contain discount label -20% before price 0,76 $ and after price 0,61 $ - PASS
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:107) - All products with discount contains prices before and after discount
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:113) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:114) - Start checking that discount and prices calculated correctly
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:125) - Price of product: Printed Summer Dress calculated correct - PASS
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:125) - Price of product: Printed Chiffon Dress calculated correct - PASS
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:131) - All prices and discounts are calculated correctly
+2020-02-03 17:04:34  INFO [main] (SearchPage.java:132) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:05:23  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:05:23  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:05:23  INFO [main] (HomePage.java:24) - Clicking on currency dropdown bottom 
+2020-02-03 17:05:24  INFO [main] (HomePage.java:27) - Clicking on bottom UAH
+2020-02-03 17:05:27  INFO [main] (HomePage.java:31) - Price 16,51 ? in UAH - PASS
+2020-02-03 17:05:27  INFO [main] (HomePage.java:31) - Price 26,99 ? in UAH - PASS
+2020-02-03 17:05:27  INFO [main] (HomePage.java:31) - Price 25,99 ? in UAH - PASS
+2020-02-03 17:05:27  INFO [main] (HomePage.java:31) - Price 50,99 ? in UAH - PASS
+2020-02-03 17:05:27  INFO [main] (HomePage.java:31) - Price 30,50 ? in UAH - PASS
+2020-02-03 17:05:27  INFO [main] (HomePage.java:31) - Price 28,98 ? in UAH - PASS
+2020-02-03 17:05:27  INFO [main] (HomePage.java:31) - Price 30,50 ? in UAH - PASS
+2020-02-03 17:05:27  INFO [main] (HomePage.java:31) - Price 20,50 ? in UAH - PASS
+2020-02-03 17:05:27  INFO [main] (HomePage.java:31) - Price 16,40 ? in UAH - PASS
+2020-02-03 17:05:27  INFO [main] (HomePage.java:37) - All products are displayed in UAH
+2020-02-03 17:05:28  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:05:28  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:05:28  INFO [main] (HomePage.java:41) - Clicking on currency dropdown bottom 
+2020-02-03 17:05:28  INFO [main] (HomePage.java:44) - Clicking on bottom EUR
+2020-02-03 17:05:29  INFO [main] (HomePage.java:48) - Price 0,58 � in EUR - PASS
+2020-02-03 17:05:29  INFO [main] (HomePage.java:48) - Price 0,95 � in EUR - PASS
+2020-02-03 17:05:29  INFO [main] (HomePage.java:48) - Price 0,91 � in EUR - PASS
+2020-02-03 17:05:29  INFO [main] (HomePage.java:48) - Price 1,79 � in EUR - PASS
+2020-02-03 17:05:29  INFO [main] (HomePage.java:48) - Price 1,07 � in EUR - PASS
+2020-02-03 17:05:29  INFO [main] (HomePage.java:48) - Price 1,02 � in EUR - PASS
+2020-02-03 17:05:29  INFO [main] (HomePage.java:48) - Price 1,07 � in EUR - PASS
+2020-02-03 17:05:29  INFO [main] (HomePage.java:48) - Price 0,72 � in EUR - PASS
+2020-02-03 17:05:29  INFO [main] (HomePage.java:48) - Price 0,58 � in EUR - PASS
+2020-02-03 17:05:29  INFO [main] (HomePage.java:54) - All products are displayed in EUR
+2020-02-03 17:05:30  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:05:30  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:05:30  INFO [main] (HomePage.java:58) - Clicking on currency dropdown bottom 
+2020-02-03 17:05:30  INFO [main] (HomePage.java:61) - Clicking on bottom USD
+2020-02-03 17:05:31  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 17:05:31  INFO [main] (HomePage.java:65) - Price 1,00 $ in USD - PASS
+2020-02-03 17:05:31  INFO [main] (HomePage.java:65) - Price 0,97 $ in USD - PASS
+2020-02-03 17:05:32  INFO [main] (HomePage.java:65) - Price 1,90 $ in USD - PASS
+2020-02-03 17:05:32  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 17:05:32  INFO [main] (HomePage.java:65) - Price 1,08 $ in USD - PASS
+2020-02-03 17:05:32  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 17:05:32  INFO [main] (HomePage.java:65) - Price 0,76 $ in USD - PASS
+2020-02-03 17:05:32  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 17:05:32  INFO [main] (HomePage.java:71) - All products are displayed in USD
+2020-02-03 17:05:32  INFO [main] (HomePage.java:79) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:05:32  INFO [main] (HomePage.java:80) - Try found product
+2020-02-03 17:05:32  INFO [main] (HomePage.java:82) - Enter name products : dress
+2020-02-03 17:05:32  INFO [main] (HomePage.java:84) - Click on search bottom
+2020-02-03 17:05:33  INFO [main] (HomePage.java:86) - Founded products : dress
+2020-02-03 17:05:33  INFO [main] (SearchPage.java:23) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:05:33  INFO [main] (SearchPage.java:24) - Try found label <�������: >
+2020-02-03 17:05:33  INFO [main] (SearchPage.java:26) - Label is present - �������: 7.
+2020-02-03 17:05:33  INFO [main] (SearchPage.java:32) - How many products founded
+2020-02-03 17:05:33  INFO [main] (SearchPage.java:34) - Amount of founded products : 7
+2020-02-03 17:05:33  INFO [main] (SearchPage.java:40) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:05:33  INFO [main] (SearchPage.java:41) - Checking that all founded products are displayed in USD
+2020-02-03 17:05:33  INFO [main] (SearchPage.java:44) - Price 0,61 $ on USD - PASS
+2020-02-03 17:05:33  INFO [main] (SearchPage.java:44) - Price 1,00 $ on USD - PASS
+2020-02-03 17:05:33  INFO [main] (SearchPage.java:44) - Price 0,97 $ on USD - PASS
+2020-02-03 17:05:34  INFO [main] (SearchPage.java:44) - Price 1,14 $ on USD - PASS
+2020-02-03 17:05:34  INFO [main] (SearchPage.java:44) - Price 0,61 $ on USD - PASS
+2020-02-03 17:05:34  INFO [main] (SearchPage.java:44) - Price 1,08 $ on USD - PASS
+2020-02-03 17:05:34  INFO [main] (SearchPage.java:44) - Price 1,90 $ on USD - PASS
+2020-02-03 17:05:34  INFO [main] (SearchPage.java:50) - All founded products are displayed in USD
+2020-02-03 17:05:34  INFO [main] (SearchPage.java:57) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:05:34  INFO [main] (SearchPage.java:58) - Sorting products from high to low prices
+2020-02-03 17:05:34  INFO [main] (SearchPage.java:60) - Click on sort drop down list 
+2020-02-03 17:05:34  INFO [main] (SearchPage.java:62) - Click on bottom from high to low 
+2020-02-03 17:05:34  INFO [main] (SearchPage.java:68) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:05:34  INFO [main] (SearchPage.java:69) - Checking that sort is correct
+2020-02-03 17:05:35  INFO [main] (SearchPage.java:75) - Price 1.9 >=1.14 - PASS
+2020-02-03 17:05:35  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.14 - PASS
+2020-02-03 17:05:35  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.0 - PASS
+2020-02-03 17:05:35  INFO [main] (SearchPage.java:75) - Price 1.0 >=0.97 - PASS
+2020-02-03 17:05:35  INFO [main] (SearchPage.java:75) - Price 0.97 >=0.76 - PASS
+2020-02-03 17:05:35  INFO [main] (SearchPage.java:75) - Price 0.76 >=0.61 - PASS
+2020-02-03 17:05:35  INFO [main] (SearchPage.java:81) - Sort is correct
+2020-02-03 17:05:35  INFO [main] (SearchPage.java:88) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:05:35  INFO [main] (SearchPage.java:89) - Check that all products with discount contain label with % and prices before/after discount
+2020-02-03 17:05:36  INFO [main] (SearchPage.java:99) - Product  Printed Summer Dress is contain discount label -5% before price 1,14 $ and after price 1,08 $ - PASS
+2020-02-03 17:05:36  INFO [main] (SearchPage.java:99) - Product  Printed Chiffon Dress is contain discount label -20% before price 0,76 $ and after price 0,61 $ - PASS
+2020-02-03 17:05:36  INFO [main] (SearchPage.java:107) - All products with discount contains prices before and after discount
+2020-02-03 17:05:36  INFO [main] (SearchPage.java:113) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:05:36  INFO [main] (SearchPage.java:114) - Start checking that discount and prices calculated correctly
+2020-02-03 17:05:36  INFO [main] (SearchPage.java:125) - Price of product: Printed Summer Dress calculated correct - PASS
+2020-02-03 17:05:36  INFO [main] (SearchPage.java:125) - Price of product: Printed Chiffon Dress calculated correct - PASS
+2020-02-03 17:05:36  INFO [main] (SearchPage.java:131) - All prices and discounts are calculated correctly
+2020-02-03 17:05:36  INFO [main] (SearchPage.java:132) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:06:07  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:06:07  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:06:07  INFO [main] (HomePage.java:24) - Clicking on currency dropdown bottom 
+2020-02-03 17:06:07  INFO [main] (HomePage.java:27) - Clicking on bottom UAH
+2020-02-03 17:06:09  INFO [main] (HomePage.java:31) - Price 16,51 ₴ in UAH - PASS
+2020-02-03 17:06:09  INFO [main] (HomePage.java:31) - Price 26,99 ₴ in UAH - PASS
+2020-02-03 17:06:09  INFO [main] (HomePage.java:31) - Price 25,99 ₴ in UAH - PASS
+2020-02-03 17:06:09  INFO [main] (HomePage.java:31) - Price 50,99 ₴ in UAH - PASS
+2020-02-03 17:06:09  INFO [main] (HomePage.java:31) - Price 30,50 ₴ in UAH - PASS
+2020-02-03 17:06:09  INFO [main] (HomePage.java:31) - Price 28,98 ₴ in UAH - PASS
+2020-02-03 17:06:09  INFO [main] (HomePage.java:31) - Price 30,50 ₴ in UAH - PASS
+2020-02-03 17:06:10  INFO [main] (HomePage.java:31) - Price 20,50 ₴ in UAH - PASS
+2020-02-03 17:06:10  INFO [main] (HomePage.java:31) - Price 16,40 ₴ in UAH - PASS
+2020-02-03 17:06:10  INFO [main] (HomePage.java:37) - All products are displayed in UAH
+2020-02-03 17:06:10  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:06:10  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:06:10  INFO [main] (HomePage.java:41) - Clicking on currency dropdown bottom 
+2020-02-03 17:06:10  INFO [main] (HomePage.java:44) - Clicking on bottom EUR
+2020-02-03 17:06:12  INFO [main] (HomePage.java:48) - Price 0,58 € in EUR - PASS
+2020-02-03 17:06:12  INFO [main] (HomePage.java:48) - Price 0,95 € in EUR - PASS
+2020-02-03 17:06:12  INFO [main] (HomePage.java:48) - Price 0,91 € in EUR - PASS
+2020-02-03 17:06:12  INFO [main] (HomePage.java:48) - Price 1,79 € in EUR - PASS
+2020-02-03 17:06:12  INFO [main] (HomePage.java:48) - Price 1,07 € in EUR - PASS
+2020-02-03 17:06:12  INFO [main] (HomePage.java:48) - Price 1,02 € in EUR - PASS
+2020-02-03 17:06:12  INFO [main] (HomePage.java:48) - Price 1,07 € in EUR - PASS
+2020-02-03 17:06:12  INFO [main] (HomePage.java:48) - Price 0,72 € in EUR - PASS
+2020-02-03 17:06:12  INFO [main] (HomePage.java:48) - Price 0,58 € in EUR - PASS
+2020-02-03 17:06:12  INFO [main] (HomePage.java:54) - All products are displayed in EUR
+2020-02-03 17:06:23  INFO [main] (HomePage.java:79) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:06:23  INFO [main] (HomePage.java:80) - Try found product
+2020-02-03 17:06:23  INFO [main] (HomePage.java:82) - Enter name products : dress
+2020-02-03 17:06:24  INFO [main] (HomePage.java:84) - Click on search bottom
+2020-02-03 17:06:25  INFO [main] (HomePage.java:86) - Founded products : dress
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:23) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:24) - Try found label <Товаров: >
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:26) - Label is present - Товаров: 7.
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:32) - How many products founded
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:34) - Amount of founded products : 7
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:40) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:41) - Checking that all founded products are displayed in USD
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:44) - Price 0,58 € on USD - PASS
+2020-02-03 17:06:25 ERROR [main] (SearchPage.java:46) - Price 0,58 € is not on USD - FAIL
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:57) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:58) - Sorting products from high to low prices
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:60) - Click on sort drop down list 
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:62) - Click on bottom from high to low 
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:68) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:06:25  INFO [main] (SearchPage.java:69) - Checking that sort is correct
+2020-02-03 17:06:26  INFO [main] (SearchPage.java:75) - Price 1.79 >=1.07 - PASS
+2020-02-03 17:06:26  INFO [main] (SearchPage.java:75) - Price 1.07 >=1.07 - PASS
+2020-02-03 17:06:26  INFO [main] (SearchPage.java:75) - Price 1.07 >=0.95 - PASS
+2020-02-03 17:06:26  INFO [main] (SearchPage.java:75) - Price 0.95 >=0.91 - PASS
+2020-02-03 17:06:26  INFO [main] (SearchPage.java:75) - Price 0.91 >=0.72 - PASS
+2020-02-03 17:06:26  INFO [main] (SearchPage.java:75) - Price 0.72 >=0.58 - PASS
+2020-02-03 17:06:26  INFO [main] (SearchPage.java:81) - Sort is correct
+2020-02-03 17:06:26  INFO [main] (SearchPage.java:88) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:06:26  INFO [main] (SearchPage.java:89) - Check that all products with discount contain label with % and prices before/after discount
+2020-02-03 17:06:26  INFO [main] (SearchPage.java:99) - Product  Printed Summer Dress is contain discount label -5% before price 1,07 € and after price 1,02 € - PASS
+2020-02-03 17:06:27  INFO [main] (SearchPage.java:99) - Product  Printed Chiffon Dress is contain discount label -20% before price 0,72 € and after price 0,58 € - PASS
+2020-02-03 17:06:27  INFO [main] (SearchPage.java:107) - All products with discount contains prices before and after discount
+2020-02-03 17:06:27  INFO [main] (SearchPage.java:113) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:06:27  INFO [main] (SearchPage.java:114) - Start checking that discount and prices calculated correctly
+2020-02-03 17:06:27  INFO [main] (SearchPage.java:125) - Price of product: Printed Summer Dress calculated correct - PASS
+2020-02-03 17:06:27  INFO [main] (SearchPage.java:125) - Price of product: Printed Chiffon Dress calculated correct - PASS
+2020-02-03 17:06:27  INFO [main] (SearchPage.java:131) - All prices and discounts are calculated correctly
+2020-02-03 17:06:27  INFO [main] (SearchPage.java:132) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:07:40  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:07:40  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:07:40  INFO [main] (HomePage.java:24) - Clicking on currency dropdown bottom 
+2020-02-03 17:07:40  INFO [main] (HomePage.java:27) - Clicking on bottom UAH
+2020-02-03 17:07:45  INFO [main] (HomePage.java:31) - Price 16,51 ? in UAH - PASS
+2020-02-03 17:07:45  INFO [main] (HomePage.java:31) - Price 26,99 ? in UAH - PASS
+2020-02-03 17:07:45  INFO [main] (HomePage.java:31) - Price 25,99 ? in UAH - PASS
+2020-02-03 17:07:45  INFO [main] (HomePage.java:31) - Price 50,99 ? in UAH - PASS
+2020-02-03 17:07:45  INFO [main] (HomePage.java:31) - Price 30,50 ? in UAH - PASS
+2020-02-03 17:07:45  INFO [main] (HomePage.java:31) - Price 28,98 ? in UAH - PASS
+2020-02-03 17:07:45  INFO [main] (HomePage.java:31) - Price 30,50 ? in UAH - PASS
+2020-02-03 17:07:45  INFO [main] (HomePage.java:31) - Price 20,50 ? in UAH - PASS
+2020-02-03 17:07:45  INFO [main] (HomePage.java:31) - Price 16,40 ? in UAH - PASS
+2020-02-03 17:07:45  INFO [main] (HomePage.java:37) - All products are displayed in UAH
+2020-02-03 17:07:45  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:07:45  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:07:45  INFO [main] (HomePage.java:41) - Clicking on currency dropdown bottom 
+2020-02-03 17:07:45  INFO [main] (HomePage.java:44) - Clicking on bottom EUR
+2020-02-03 17:07:47  INFO [main] (HomePage.java:48) - Price 0,58 � in EUR - PASS
+2020-02-03 17:07:47  INFO [main] (HomePage.java:48) - Price 0,95 � in EUR - PASS
+2020-02-03 17:07:47  INFO [main] (HomePage.java:48) - Price 0,91 � in EUR - PASS
+2020-02-03 17:07:47  INFO [main] (HomePage.java:48) - Price 1,79 � in EUR - PASS
+2020-02-03 17:07:47  INFO [main] (HomePage.java:48) - Price 1,07 � in EUR - PASS
+2020-02-03 17:07:47  INFO [main] (HomePage.java:48) - Price 1,02 � in EUR - PASS
+2020-02-03 17:07:47  INFO [main] (HomePage.java:48) - Price 1,07 � in EUR - PASS
+2020-02-03 17:07:47  INFO [main] (HomePage.java:48) - Price 0,72 � in EUR - PASS
+2020-02-03 17:07:47  INFO [main] (HomePage.java:48) - Price 0,58 � in EUR - PASS
+2020-02-03 17:07:47  INFO [main] (HomePage.java:54) - All products are displayed in EUR
+2020-02-03 17:07:47  INFO [main] (HomePage.java:20) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:07:47  INFO [main] (HomePage.java:21) - Checking that currency of all products is displayed correct on main page
+2020-02-03 17:07:47  INFO [main] (HomePage.java:58) - Clicking on currency dropdown bottom 
+2020-02-03 17:07:48  INFO [main] (HomePage.java:61) - Clicking on bottom USD
+2020-02-03 17:07:49  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 17:07:49  INFO [main] (HomePage.java:65) - Price 1,00 $ in USD - PASS
+2020-02-03 17:07:49  INFO [main] (HomePage.java:65) - Price 0,97 $ in USD - PASS
+2020-02-03 17:07:49  INFO [main] (HomePage.java:65) - Price 1,90 $ in USD - PASS
+2020-02-03 17:07:49  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 17:07:49  INFO [main] (HomePage.java:65) - Price 1,08 $ in USD - PASS
+2020-02-03 17:07:49  INFO [main] (HomePage.java:65) - Price 1,14 $ in USD - PASS
+2020-02-03 17:07:49  INFO [main] (HomePage.java:65) - Price 0,76 $ in USD - PASS
+2020-02-03 17:07:49  INFO [main] (HomePage.java:65) - Price 0,61 $ in USD - PASS
+2020-02-03 17:07:49  INFO [main] (HomePage.java:71) - All products are displayed in USD
+2020-02-03 17:07:50  INFO [main] (HomePage.java:79) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:07:50  INFO [main] (HomePage.java:80) - Try found product
+2020-02-03 17:07:50  INFO [main] (HomePage.java:82) - Enter name products : dress
+2020-02-03 17:07:50  INFO [main] (HomePage.java:84) - Click on search bottom
+2020-02-03 17:07:51  INFO [main] (HomePage.java:86) - Founded products : dress
+2020-02-03 17:07:51  INFO [main] (SearchPage.java:23) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:07:51  INFO [main] (SearchPage.java:24) - Try found label <�������: >
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:26) - Label is present - �������: 7.
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:32) - How many products founded
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:34) - Amount of founded products : 7
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:40) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:41) - Checking that all founded products are displayed in USD
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:44) - Price 0,61 $ on USD - PASS
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:44) - Price 1,00 $ on USD - PASS
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:44) - Price 0,97 $ on USD - PASS
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:44) - Price 1,14 $ on USD - PASS
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:44) - Price 0,61 $ on USD - PASS
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:44) - Price 1,08 $ on USD - PASS
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:44) - Price 1,90 $ on USD - PASS
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:50) - All founded products are displayed in USD
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:57) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:58) - Sorting products from high to low prices
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:60) - Click on sort drop down list 
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:62) - Click on bottom from high to low 
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:68) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:07:52  INFO [main] (SearchPage.java:69) - Checking that sort is correct
+2020-02-03 17:07:53  INFO [main] (SearchPage.java:75) - Price 1.9 >=1.14 - PASS
+2020-02-03 17:07:53  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.14 - PASS
+2020-02-03 17:07:53  INFO [main] (SearchPage.java:75) - Price 1.14 >=1.0 - PASS
+2020-02-03 17:07:53  INFO [main] (SearchPage.java:75) - Price 1.0 >=0.97 - PASS
+2020-02-03 17:07:53  INFO [main] (SearchPage.java:75) - Price 0.97 >=0.76 - PASS
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:75) - Price 0.76 >=0.61 - PASS
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:81) - Sort is correct
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:88) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:89) - Check that all products with discount contain label with % and prices before/after discount
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:99) - Product  Printed Summer Dress is contain discount label -5% before price 1,14 $ and after price 1,08 $ - PASS
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:99) - Product  Printed Chiffon Dress is contain discount label -20% before price 0,76 $ and after price 0,61 $ - PASS
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:107) - All products with discount contains prices before and after discount
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:113) - ---------------------------------------------------------------------------------------------------------
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:114) - Start checking that discount and prices calculated correctly
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:125) - Price of product: Printed Summer Dress calculated correct - PASS
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:125) - Price of product: Printed Chiffon Dress calculated correct - PASS
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:131) - All prices and discounts are calculated correctly
+2020-02-03 17:07:54  INFO [main] (SearchPage.java:132) - ---------------------------------------------------------------------------------------------------------

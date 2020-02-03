@@ -8,29 +8,16 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.List;
 
 public class SearchPage extends BasePage {
-    private By amountOfFoundedProducts = By.xpath("//div[@class='products row']//span[@class='price']");
-    private By labelProducts = By.xpath("//p[contains(text(),'Товаров')]");
-    private By sortDropBoxBottom = By.xpath("//a[@class='select-title']");
+    private By amountOfFoundedProducts = By.cssSelector(".price");
+    private By labelProducts = By.cssSelector("#js-product-list-top p");
+    private By sortDropBoxBottom = By.cssSelector(".select-title");
     private By fromHighToLow = By.xpath("//a[contains(text(),'от высокой к низкой')]");
     private By regularPrice = By.xpath("//div[@class='product-price-and-shipping']/span[1]");
     private By discount = By.xpath("//div[@class='products row']//span[@class='discount-percentage']");
-    private By labelDiscount = By.xpath("//div[@class='products row']//span[@class='discount-percentage']/ancestor::div['product-description']/h1");
+    private By labelDiscount = By.xpath("//span [@class='discount-percentage']//ancestor::div/h1");
     private By beforeDiscount = By.xpath("//span[@class='discount-percentage']/preceding-sibling::span");
     private By afterDiscount = By.xpath("//span[@class='discount-percentage']/following-sibling::span");
-    private By searchField = By.xpath("//input[@placeholder='Поиск в каталоге']");
-    private By bottomSearch = By.xpath("//div[@id='search_widget']//i[@class='material-icons search']");
 
-    public SearchPage findProducts(String product) {
-        log.info("---------------------------------------------------------------------------------------------------------");
-        log.info("Try found product");
-        waitElementToBeClickable(searchField);
-        log.info("Enter name products : " + product);
-        driver.findElement(searchField).sendKeys(product);
-        log.info("Click on search bottom");
-        driver.findElement(bottomSearch).click();
-        log.info("Founded products : " + product);
-        return new SearchPage();
-    }
     //step 5.1 found label
     public String getLabel() {
         log.info("---------------------------------------------------------------------------------------------------------");

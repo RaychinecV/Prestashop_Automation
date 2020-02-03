@@ -6,21 +6,23 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestCases extends BaseTest {
+    private HomePage homepage;
+    private SearchPage searchPage;
 
-    @io.qameta.allure.Description("Checking that currency is correct")
+    @Description("Checking that currency is correct")
     @Test(priority = 1)
     public void checkCurrency() {
-        HomePage main = new HomePage();
-        Assert.assertTrue(main.checkAllCurrency(BasePage.Currency.UAH), "Some product is't in UAH");
-        Assert.assertTrue(main.checkAllCurrency(BasePage.Currency.EUR), "Some product is't in EUR");
-        Assert.assertTrue(main.checkAllCurrency(BasePage.Currency.USD), "Some product is't in USD");
+        homepage = new HomePage();
+        Assert.assertTrue(homepage.checkAllCurrency(BasePage.Currency.UAH), "Some product is't in UAH");
+        Assert.assertTrue(homepage.checkAllCurrency(BasePage.Currency.EUR), "Some product is't in EUR");
+        Assert.assertTrue(homepage.checkAllCurrency(BasePage.Currency.USD), "Some product is't in USD");
     }
 
-    @io.qameta.allure.Description("Checking find products")
+    @Description("Checking find products")
     @Test(priority = 2)
     public void searchProduct() {
-        SearchPage searchPage = new SearchPage();
-        searchPage.findProducts("dress");
+        searchPage = new SearchPage();
+        homepage.findProducts("dress");
         Assert.assertEquals(searchPage.getLabel(), "Товаров: " + searchPage.getAmountOfFoundedProducts() + ".", "Label <Товари: > is not present or contain wrong amount of products");
         Assert.assertTrue(searchPage.checkFoundedProductsInUSD(), "Some founded product is not in USD");
     }
@@ -28,6 +30,7 @@ public class TestCases extends BaseTest {
     @Description("Checking sort of products")
     @Test(priority = 3)
     public void sorting() {
+        searchPage = new SearchPage();
         SearchPage searchPage = new SearchPage();
         searchPage.sortFromHighToLow();
         Assert.assertTrue(searchPage.checkSortFromHigh(), "Wrong sort");

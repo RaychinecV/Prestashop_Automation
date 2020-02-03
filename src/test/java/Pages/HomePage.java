@@ -10,6 +10,8 @@ public class HomePage extends BasePage {
     private By bottomUAH = By.xpath("//a[contains(text(),'UAH ₴')]");
     private By bottomEUR = By.xpath("//a[contains(text(),'EUR €')]");
     private By bottomUSD = By.xpath("//a[contains(text(),'USD $')]");
+    private By searchField = By.className("ui-autocomplete-input");
+    private By bottomSearch = By.cssSelector("button[type=submit]");
 
 
     //step 2 + step 3 - check currency and choice product in USD
@@ -70,5 +72,18 @@ public class HomePage extends BasePage {
 
         }
         return true;
+
+    }
+
+    public SearchPage findProducts(String product) {
+        log.info("---------------------------------------------------------------------------------------------------------");
+        log.info("Try found product");
+        waitElementToBeClickable(searchField);
+        log.info("Enter name products : " + product);
+        driver.findElement(searchField).sendKeys(product);
+        log.info("Click on search bottom");
+        driver.findElement(bottomSearch).click();
+        log.info("Founded products : " + product);
+        return new SearchPage();
     }
 }
