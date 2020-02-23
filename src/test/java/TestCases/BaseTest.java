@@ -1,5 +1,7 @@
 package TestCases;
 
+import Pages.HomePage;
+import Pages.SearchPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -14,6 +16,7 @@ public class BaseTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://prestashop-automation.qatestlab.com.ua/ru");
+
     }
 
     @AfterTest

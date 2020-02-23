@@ -16,59 +16,61 @@ public class HomePage extends BasePage {
 
     //step 2 + step 3 - check currency and choice product in USD
     public boolean checkAllCurrency(Currency currency) {
-        waitElementToBeClickable(currencyDropdownBottom);
-        log.info("---------------------------------------------------------------------------------------------------------");
-        log.info("Checking that currency of all products is displayed correct on main page");
+        logger.info("---------------------------------------------------------------------------------------------------------");
+        logger.info("Checking that currency of all products is displayed correct on main page");
         switch (currency) {
             case UAH:
-                log.info("Clicking on currency dropdown bottom ");
+                waitElementToBeVisible(currencyDropdownBottom);
+                logger.info("Clicking on currency dropdown bottom ");
                 driver.findElement(currencyDropdownBottom).click();
-                waitElementToBeClickable(bottomUAH);
-                log.info("Clicking on bottom UAH");
+                waitElementToBeVisible(bottomUAH);
+                logger.info("Clicking on bottom UAH");
                 driver.findElement(bottomUAH).click();
                 List<WebElement> listPopularProductsUAH = driver.findElements(popularPrice);
                 for (WebElement productsPopularPrice : listPopularProductsUAH) {
-                    log.info("Price " + productsPopularPrice.getText() + " in UAH - PASS");
+                    logger.info("Price " + productsPopularPrice.getText() + " in UAH - PASS");
                     if (!productsPopularPrice.getText().contains("₴")) {
-                        log.error("Price " + productsPopularPrice + " in not UAH - FAIL");
+                        logger.info("Price " + productsPopularPrice.getText() + " in not UAH - FAIL");
                         return false;
                     }
                 }
-                log.info("All products are displayed in UAH");
+                logger.info("All products are displayed in UAH");
                 return true;
 
             case EUR:
-                log.info("Clicking on currency dropdown bottom ");
+                waitElementToBeVisible(currencyDropdownBottom);
+                logger.info("Clicking on currency dropdown bottom ");
                 driver.findElement(currencyDropdownBottom).click();
-                waitElementToBeClickable(bottomEUR);
-                log.info("Clicking on bottom EUR");
+                waitElementToBeVisible(bottomEUR);
+                logger.info("Clicking on bottom EUR");
                 driver.findElement(bottomEUR).click();
                 List<WebElement> listPopularProductsEUR = driver.findElements(popularPrice);
                 for (WebElement productsPopularPrice : listPopularProductsEUR) {
-                    log.info("Price " + productsPopularPrice.getText() + " in EUR - PASS");
+                    logger.info("Price " + productsPopularPrice.getText() + " in EUR - PASS");
                     if (!productsPopularPrice.getText().contains("€")) {
-                        log.error("Price " + productsPopularPrice + " in not EUR - FAIL");
+                        logger.info("Price " + productsPopularPrice.getText() + " in not EUR - FAIL");
                         return false;
                     }
                 }
-                log.info("All products are displayed in EUR");
+                logger.info("All products are displayed in EUR");
                 return true;
 
             case USD:
-                log.info("Clicking on currency dropdown bottom ");
+                waitElementToBeVisible(currencyDropdownBottom);
+                logger.info("Clicking on currency dropdown bottom ");
                 driver.findElement(currencyDropdownBottom).click();
-                waitElementToBeClickable(bottomUSD);
-                log.info("Clicking on bottom USD");
+                waitElementToBeVisible(bottomUSD);
+                logger.info("Clicking on bottom USD");
                 driver.findElement(bottomUSD).click();
                 List<WebElement> listPopularProductsUSD = driver.findElements(popularPrice);
                 for (WebElement productsPopularPrice : listPopularProductsUSD) {
-                    log.info("Price " + productsPopularPrice.getText() + " in USD - PASS");
+                    logger.info("Price " + productsPopularPrice.getText() + " in USD - PASS");
                     if (!productsPopularPrice.getText().contains("$")) {
-                        log.error("Price " + productsPopularPrice + " in not USD - FAIL");
+                        logger.info("Price " + productsPopularPrice.getText() + " in not USD - FAIL");
                         return false;
                     }
                 }
-                log.info("All products are displayed in USD");
+                logger.info("All products are displayed in USD");
 
         }
         return true;
@@ -76,14 +78,14 @@ public class HomePage extends BasePage {
     }
 
     public SearchPage findProducts(String product) {
-        log.info("---------------------------------------------------------------------------------------------------------");
-        log.info("Try found product");
+        logger.info("---------------------------------------------------------------------------------------------------------");
+        logger.info("Try found product");
         waitElementToBeClickable(searchField);
-        log.info("Enter name products : " + product);
+        logger.info("Enter name products : " + product);
         driver.findElement(searchField).sendKeys(product);
-        log.info("Click on search bottom");
+        logger.info("Click on search bottom");
         driver.findElement(bottomSearch).click();
-        log.info("Founded products : " + product);
+        logger.info("Founded products : " + product);
         return new SearchPage();
     }
 }

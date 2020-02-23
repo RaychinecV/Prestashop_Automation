@@ -8,9 +8,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage extends BaseTest {
 
-    WebDriverWait wait = new WebDriverWait(driver, 10);
+    WebDriverWait wait = new WebDriverWait(driver, 5);
 
-    static final Logger log = Logger.getLogger(BasePage.class);
+    static final Logger logger = Logger.getLogger(BasePage.class);
 
     void waitElementToBeClickable(By xpath) {
         wait.until(ExpectedConditions.elementToBeClickable(xpath));
@@ -21,7 +21,14 @@ public class BasePage extends BaseTest {
     }
 
     public enum Currency {
-        EUR, UAH, USD
+        EUR,
+        UAH,
+        USD
+    }
+
+    public enum Sort {
+        FROM_HIGH_TO_LOW,
+        FROM_lOW_TO_HIGH
     }
 }
 

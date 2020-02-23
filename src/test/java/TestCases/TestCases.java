@@ -6,35 +6,68 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestCases extends BaseTest {
-    private HomePage homepage;
-    private SearchPage searchPage;
 
-    @Description("Checking that currency is correct")
+    @Description("Checking that currency in UAH")
     @Test(priority = 1)
-    public void checkCurrency() {
-        homepage = new HomePage();
-        Assert.assertTrue(homepage.checkAllCurrency(BasePage.Currency.UAH), "Some product is't in UAH");
-        Assert.assertTrue(homepage.checkAllCurrency(BasePage.Currency.EUR), "Some product is't in EUR");
-        Assert.assertTrue(homepage.checkAllCurrency(BasePage.Currency.USD), "Some product is't in USD");
+    public void checkCurrencyUAH() {
+        HomePage homePage = new HomePage();
+        Assert.assertTrue(homePage.checkAllCurrency(BasePage.Currency.UAH), "Some product is't in UAH");
     }
 
-    @Description("Checking find products")
+    @Description("Checking that currency in EUR")
     @Test(priority = 2)
-    public void searchProduct() {
-        searchPage = new SearchPage();
-        homepage.findProducts("dress");
-        Assert.assertEquals(searchPage.getLabel(), "Товаров: " + searchPage.getAmountOfFoundedProducts() + ".", "Label <Товари: > is not present or contain wrong amount of products");
-        Assert.assertTrue(searchPage.checkFoundedProductsInUSD(), "Some founded product is not in USD");
+    public void checkCurrencyEUR() {
+        HomePage homePage = new HomePage();
+        Assert.assertTrue(homePage.checkAllCurrency(BasePage.Currency.EUR), "Some product is't in EUR");
     }
 
-    @Description("Checking sort of products")
+    @Description("Checking that currency in USD")
     @Test(priority = 3)
-    public void sorting() {
-        searchPage = new SearchPage();
+    public void checkCurrencyUSD() {
+        HomePage homePage = new HomePage();
+        Assert.assertTrue(homePage.checkAllCurrency(BasePage.Currency.USD), "Some product is't in USD");
+    }
+
+    @Description("Check searching of products")
+    @Test(priority = 4)
+    public void searchProduct() {
+        HomePage homePage = new HomePage();
+        SearchPage searchPage = homePage.findProducts("dress");
+        Assert.assertEquals(searchPage.getLabel(), "Товаров: " + searchPage.getAmountOfFoundedProducts() + ".", "Label <Товари: > is not present or contain wrong amount of products");
+    }
+
+    @Description("Checking that currency of founded products in USD")
+    @Test(dependsOnMethods = "searchProduct")
+    public void checkingCurrencyOfFoundedProducts() {
         SearchPage searchPage = new SearchPage();
-        searchPage.sortFromHighToLow();
-        Assert.assertTrue(searchPage.checkSortFromHigh(), "Wrong sort");
+        Assert.assertTrue(searchPage.checkCurrencyOfFoundedProducts(BasePage.Currency.USD), "Some founded product is not in USD");
+    }
+
+    @Description("Checking sort from high to low")
+    @Test(priority = 5)
+    public void checkSortFromHighToLow() {
+        SearchPage searchPage = new SearchPage();
+        Assert.assertTrue(searchPage.checkSort(BasePage.Sort.FROM_HIGH_TO_LOW), "Wrong sort");
+    }
+
+    @Description("Checking sort from low to high")
+    @Test(priority = 6)
+    public void checkSortFromLowToHigh() {
+        SearchPage searchPage = new SearchPage();
+        Assert.assertTrue(searchPage.checkSort(BasePage.Sort.FROM_lOW_TO_HIGH), "Wrong sort");
+    }
+
+    @Description("Checking that amount of discount and prices is equal")
+    @Test(priority = 7)
+    public void checkAmountOfDiscountAndPricesEqual() {
+        SearchPage searchPage = new SearchPage();
         Assert.assertTrue(searchPage.displayedPricesAndDiscount(), "Label discount is't contain % or not displayed prices before/after discount");
+    }
+
+    @Description("Checking that discount is calculated correct")
+    @Test(priority = 8)
+    public void checkCalculateOfDiscount() {
+        SearchPage searchPage = new SearchPage();
         Assert.assertTrue(searchPage.checkDiscountAndPrices(), "Discount and prices are calculated wrong");
     }
 }
