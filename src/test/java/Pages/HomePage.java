@@ -1,31 +1,36 @@
 package Pages;
 
+import io.qameta.allure.Step;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class HomePage extends BasePage {
+    static final Logger logger = Logger.getLogger(BasePage.class);
+
     private By popularPrice = By.xpath("//div[@class='product-description']//span[contains(@class,'price')]");
-    private By currencyDropdownBottom = By.xpath("//div[@class='currency-selector dropdown js-dropdown']//a[@class='hidden-sm-down']");
+    private By currencyDropdownButtom = By.xpath("//div[@class='currency-selector dropdown js-dropdown']//a[@class='hidden-sm-down']");
     private By bottomUAH = By.xpath("//a[contains(text(),'UAH ₴')]");
-    private By bottomEUR = By.xpath("//a[contains(text(),'EUR €')]");
-    private By bottomUSD = By.xpath("//a[contains(text(),'USD $')]");
+    private By buttomEUR = By.xpath("//a[contains(text(),'EUR €')]");
+    private By buttonUSD = By.xpath("//a[contains(text(),'USD $')]");
     private By searchField = By.className("ui-autocomplete-input");
-    private By bottomSearch = By.cssSelector("button[type=submit]");
+    private By buttomSearch = By.cssSelector("button[type=submit]");
 
 
     //step 2 + step 3 - check currency and choice product in USD
+    @Step
     public boolean checkAllCurrency(Currency currency) {
         logger.info("---------------------------------------------------------------------------------------------------------");
         logger.info("Checking that currency of all products is displayed correct on main page");
         switch (currency) {
             case UAH:
-                waitElementToBeVisible(currencyDropdownBottom);
+                waitElementToBeVisible(currencyDropdownButtom);
                 logger.info("Clicking on currency dropdown bottom ");
-                driver.findElement(currencyDropdownBottom).click();
+                click(currencyDropdownButtom);
                 waitElementToBeVisible(bottomUAH);
                 logger.info("Clicking on bottom UAH");
-                driver.findElement(bottomUAH).click();
+                click(bottomUAH);
                 List<WebElement> listPopularProductsUAH = driver.findElements(popularPrice);
                 for (WebElement productsPopularPrice : listPopularProductsUAH) {
                     logger.info("Price " + productsPopularPrice.getText() + " in UAH - PASS");
@@ -38,12 +43,12 @@ public class HomePage extends BasePage {
                 return true;
 
             case EUR:
-                waitElementToBeVisible(currencyDropdownBottom);
+                waitElementToBeVisible(currencyDropdownButtom);
                 logger.info("Clicking on currency dropdown bottom ");
-                driver.findElement(currencyDropdownBottom).click();
-                waitElementToBeVisible(bottomEUR);
+                click(currencyDropdownButtom);
+                waitElementToBeVisible(buttomEUR);
                 logger.info("Clicking on bottom EUR");
-                driver.findElement(bottomEUR).click();
+                click(buttomEUR);
                 List<WebElement> listPopularProductsEUR = driver.findElements(popularPrice);
                 for (WebElement productsPopularPrice : listPopularProductsEUR) {
                     logger.info("Price " + productsPopularPrice.getText() + " in EUR - PASS");
@@ -56,12 +61,12 @@ public class HomePage extends BasePage {
                 return true;
 
             case USD:
-                waitElementToBeVisible(currencyDropdownBottom);
+                waitElementToBeVisible(currencyDropdownButtom);
                 logger.info("Clicking on currency dropdown bottom ");
-                driver.findElement(currencyDropdownBottom).click();
-                waitElementToBeVisible(bottomUSD);
+                click(currencyDropdownButtom);
+                waitElementToBeVisible(buttonUSD);
                 logger.info("Clicking on bottom USD");
-                driver.findElement(bottomUSD).click();
+                click(buttonUSD);
                 List<WebElement> listPopularProductsUSD = driver.findElements(popularPrice);
                 for (WebElement productsPopularPrice : listPopularProductsUSD) {
                     logger.info("Price " + productsPopularPrice.getText() + " in USD - PASS");
@@ -76,7 +81,7 @@ public class HomePage extends BasePage {
         return true;
 
     }
-
+@Step
     public SearchPage findProducts(String product) {
         logger.info("---------------------------------------------------------------------------------------------------------");
         logger.info("Try found product");
@@ -84,7 +89,7 @@ public class HomePage extends BasePage {
         logger.info("Enter name products : " + product);
         driver.findElement(searchField).sendKeys(product);
         logger.info("Click on search bottom");
-        driver.findElement(bottomSearch).click();
+        click(buttomSearch);
         logger.info("Founded products : " + product);
         return new SearchPage();
     }

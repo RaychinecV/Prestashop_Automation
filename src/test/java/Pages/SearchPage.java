@@ -1,5 +1,7 @@
 package Pages;
 
+import io.qameta.allure.Step;
+import org.apache.log4j.Logger;
 import org.decimal4j.util.DoubleRounder;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -8,9 +10,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.List;
 
 public class SearchPage extends BasePage {
+    static final Logger logger = Logger.getLogger(SearchPage.class);
+
     private By amountOfFoundedProducts = By.cssSelector(".price");
     private By labelProducts = By.cssSelector("#js-product-list-top p");
-    private By sortDropBoxBottom = By.cssSelector(".select-title");
+    private By sortDropBoxButtom = By.cssSelector(".select-title");
     private By fromHighToLow = By.xpath("//a[contains(text(),'от высокой к низкой')]");
     private By fromLowToHigh = By.xpath("//a[contains(text(),'от низкой к высокой')]");
     private By regularPrice = By.xpath("//div[@class='product-price-and-shipping']/span[1]");
@@ -20,6 +24,7 @@ public class SearchPage extends BasePage {
     private By afterDiscount = By.xpath("//span[@class='discount-percentage']/following-sibling::span");
 
     //step 5.1 found label
+    @Step
     public String getLabel() {
         logger.info("---------------------------------------------------------------------------------------------------------");
         logger.info("Try found label <Товаров: >");
@@ -29,6 +34,7 @@ public class SearchPage extends BasePage {
     }
 
     //step 5.2 number of founded products
+    @Step
     public int getAmountOfFoundedProducts() {
         logger.info("How many products founded");
         waitElementToBeVisible(labelProducts);
@@ -37,20 +43,22 @@ public class SearchPage extends BasePage {
     }
 
     // step 6 - check founded price
+    @Step
     public boolean checkCurrencyOfFoundedProducts(Currency currency) {
         HomePage homePage = new HomePage();
         return homePage.checkAllCurrency(currency);
     }
 
     //sort
+    @Step
     public void choiceSort(By sort) {
-        waitElementToBeClickable(sortDropBoxBottom);
+        waitElementToBeClickable(sortDropBoxButtom);
         logger.info("Click on sort drop down list ");
-        driver.findElement(sortDropBoxBottom).click();
-        driver.findElement(sort).click();
+        click(sortDropBoxButtom);
+        click(sort);
     }
 
-
+    @Step
     public boolean checkSortFromHighToLow() {
         logger.info("Checking that sort is correct");
         wait.until(ExpectedConditions.urlContains("product.price.desc&s=dress"));
@@ -69,7 +77,7 @@ public class SearchPage extends BasePage {
         return true;
     }
 
-
+    @Step
     public boolean checkSortFromLowToHigh() {
         logger.info("Checking that sort is correct");
         wait.until(ExpectedConditions.urlContains("product.price.asc&s=dress"));
@@ -88,6 +96,7 @@ public class SearchPage extends BasePage {
         return true;
     }
 
+    @Step
     public boolean checkSort(Sort sort) {
         switch (sort) {
             case FROM_HIGH_TO_LOW:
@@ -107,6 +116,7 @@ public class SearchPage extends BasePage {
 
 
     //step 9 - check displayed discount and prices
+    @Step
     public boolean displayedPricesAndDiscount() {
         logger.info("---------------------------------------------------------------------------------------------------------");
         logger.info("Check that all products with discount contain label with % and prices before/after discount");
@@ -132,6 +142,7 @@ public class SearchPage extends BasePage {
     }
 
     // step 10 - check that discount calculated correctly
+    @Step
     public boolean checkDiscountAndPrices() {
         logger.info("Start checking that discount and prices calculated correctly");
         List<WebElement> listDiscount = driver.findElements(discount);
